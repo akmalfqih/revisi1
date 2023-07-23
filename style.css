@@ -1,0 +1,815 @@
+body {
+    font-family: 'Poppins';
+}
+
+/* NAVBAR */
+
+.navbar-brand img {
+    position: relative;
+    width: 130px;
+    height: auto;
+    bottom: 5px;
+    left: 60px;
+}
+
+.oy ul li a {
+    color: rgb(246, 241, 241);
+    font-size: 16px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.navbar-scrolled {
+    background-color: #000000 !important;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        left: 0px;
+    }
+
+    .oy {
+        display: none;
+    }
+
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        padding: 10px;
+        transition: none;
+    }
+
+    .navbar-collapse li {
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse li a {
+        color: #ffffff;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+}
+
+
+
+/* AKHIR NAVBAR */
+
+
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url('assets/img/bgjb.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    color: rgb(241, 241, 241);
+}
+
+.headline h2 {
+    font-size: 34px;
+    font-weight: bold;
+
+}
+
+hr.divider {
+    height: 0.07rem;
+    max-width: 21.25rem;
+    margin: 1rem auto;
+
+    opacity: 1;
+}
+
+.kspmis p {
+    font-size: 16px
+}
+
+
+.find-out {
+    background-color: #5463FF;
+    /* Warna latar belakang */
+    /* Warna teks */
+    padding: 12px 24px;
+    /* Padding dalam tombol */
+    border: none;
+    /* Hapus garis tepi */
+    border-radius: 100px;
+    /* Tambahkan sudut melengkung pada tombol */
+    font-size: 16px;
+    /* Ukuran font */
+    font-weight: bold;
+    /* Teks tebal */
+    text-transform: uppercase;
+    /* Ubah teks menjadi huruf besar */
+    transition: background-color 0.3s ease;
+    /* Transisi saat dihover */
+}
+
+.find-out:hover {
+    background-color: #4B54FF;
+    ;
+    /* Warna latar belakang saat dihover */
+    cursor: pointer;
+    /* Ganti kursor saat dihover */
+}
+
+.tulfind {
+    font-weight: bold;
+    font-family: 'poppins';
+    text-transform: none;
+}
+
+
+@media (max-width:768px) {
+    .jumbotron {
+        background-size: cover;
+        padding-top: 80px;
+        height: auto;
+        background-repeat: no-repeat;
+        margin-top: -35px;
+        margin-bottom: -20px;
+
+    }
+
+    .headline h2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+
+    .kspmis p {
+        font-size: 10px;
+        margin: 0 10px;
+    }
+
+    .find-out {
+        width: 100px;
+        /* Lebar tombol yang lebih kecil */
+        padding: 1px 10px;
+        /* Padding dalam tombol yang lebih kecil */
+        margin-top: 10px;
+    }
+
+    .tulfind {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+/* About us */
+
+.about {
+    margin-top: 30px;
+}
+
+.abvid video {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.abtul h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.abtul p {
+    font-size: 13px;
+    text-align: left;
+}
+
+.join-us {
+    background-color: #5463FF;
+    padding: 4px 34px;
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.join-us:hover {
+    background-color: #4B54FF;
+    ;
+    /* Warna latar belakang saat dihover */
+    cursor: pointer;
+    /* Ganti kursor saat dihover */
+}
+
+.tulfind {
+    font-weight: bold;
+    font-family: 'poppins';
+    text-transform: none;
+}
+
+@media (max-width:768px) {
+    .abtul h1 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+/* AKHIR ABOUT US */
+
+
+
+/* WORK CULTURE */
+.work-culture {
+    margin-top: 60px;
+    background-color: #D9D9D9;
+}
+
+.workheadline h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.hdlicon {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icondesc {
+    margin-top: 20px;
+}
+
+/*AKHIR WORK CULTURE */
+
+
+
+
+/* reputasi */
+
+.reputation {
+    background-color: #D9D9D9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.tulrep h1 {
+    text-align: end;
+    font-weight: bold;
+}
+
+.doang {
+    color: #C3B074;
+}
+
+.mac {
+    margin-top: 20px;
+}
+
+.kotak {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #C3B074;
+    border-radius: 30px;
+
+}
+
+.tulrep h1 {
+    text-align: end;
+    font-weight: bold;
+}
+
+.mac {
+    margin-top: 20px;
+}
+
+.contentkotak {
+    background-color:#FFC300 !important;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+
+.num {
+    color: black;
+    font-weight: bold;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 270px;
+    height: auto;
+
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* margin-left: 117px; */
+    margin: auto;
+}
+
+.sembilan {
+    font-size: 64px;
+}
+
+
+
+.duadigit {
+    font-size: 64px;
+}
+
+
+
+.num h3 {
+    font-size: 24px;
+}
+
+.d h3 {
+    font-size: 20px;
+}
+
+
+@media (max-width:999px) {
+    .num {
+        margin-bottom: 40px;
+    }
+
+    .tulrep {
+        text-align: center;
+        margin-right: 15px;
+    }
+}
+
+
+
+/* GJDDD */
+.img-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    /* 1:1 Aspect Ratio (100% untuk kotak) */
+    overflow: hidden;
+    background-color: #FFC300;
+    /* Warna latar belakang untuk mengisi ruang */
+}
+
+/* Mengatur ukuran gambar */
+.img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Gambar akan mengisi seluruh area dan menjaga aspek rasio */
+}
+
+/* Mengatur ukuran kolom agar gambar tidak ke crop */
+.dokum {
+    padding: 5px;
+}
+
+/* CSS untuk gambar */
+
+.dokum {
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    max-width: 200px;
+    /* Sesuaikan ukuran gambar yang diinginkan di sini */
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    transition: transform 0.3s ease, border-radius 0.3s ease; /* Mengatur transisi scaling dan border radius */
+}
+
+.dokum img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Efek scaling saat hover */
+.dokum:hover {
+    transform: scale(1.2); /* Skala kotak menjadi 1.2 kali lebih besar saat hover */
+    border-radius: 20px; /* Mengubah border radius saat hover */
+}
+
+
+
+/* CSS untuk 3 gambar per baris di handphone */
+
+.underline .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dokum {
+    flex-basis: calc(16.6667% - 15px); /* Menyesuaikan ukuran kolom untuk menampilkan 6 foto dalam satu baris */
+    margin-bottom: 15px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.img-container:hover {
+    transform: scale(1.2);
+}
+
+.actname {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .dokum {
+        width: 33.33%;
+        /* 3 gambar per baris */
+        max-width: none;       
+    }
+ 
+}
+
+
+
+.img-container {
+    position: relative; /* Tambahkan ini untuk posisi relatif */
+}
+
+.actname {
+    display: block;
+    background-color: #D9D9D9; /* Warna abu dengan transparansi 0.5 */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; /* Tambahkan ini untuk meletakkan tulisan di sudut kiri atas */
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+    opacity: 0;
+    transition: .6s;
+    color: black;
+}
+
+.img-container:hover .actname {
+    opacity: .5;
+}
+
+/* AKHIR REPUTASI */
+
+
+/* ready */
+
+.ready{
+    margin-top: 60px;
+    overflow-x: hidden
+}
+
+.vertical-line {
+    position: relative;
+    width: 0px;
+    height: 200px; /* Sesuaikan tinggi garis vertikal sesuai kebutuhan */
+    border-left: 5px solid black; /* Atur warna dan ketebalan garis sesuai kebutuhan */
+    content: "";
+    display: block;
+    right: 30px;
+}
+
+.tulred h1{
+    font-weight: bold;
+    font-size: 44px;
+    margin-right: 30px;
+    margin-left: 90px;
+}
+
+
+.contact {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    background-color: #5463FF;
+    border: none;
+    padding: 10px; /* Add padding for better spacing */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 40px;
+    padding: 15px;
+    transition: .8s;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-icon {
+    margin-right: 10px; /* Add margin to separate icon and text */
+}
+
+.contact:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+@media (max-width:978px){
+    .tulred h1{
+        margin: auto;
+        line-height: 1.5;
+    }
+    .contact{
+        margin: auto;
+        margin-top: -130px;
+    }
+
+}
+
+
+
+/* footer */
+
+.footer{
+    margin-top: 90px;
+    background-color: #D9D9D9;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+
+.col-md-6 {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    margin-right: 10px;
+}
+
+.icon-container svg {
+    position: relative;
+    width: 80px;
+    height: auto;
+    fill: #FB2576;
+    top:70px;
+    left: 70px;
+}
+.text-container {
+    width: 100%;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.tebeldikit {
+    height: 3px;
+    background-color: #000000;
+    margin-bottom: 15px;
+}
+
+.text-container p {
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    margin: 5px; /* Memberi jarak antara gambar */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Menyesuaikan jarak antara setiap SVG */
+    width: 100%; /* Memastikan bahwa image-container penuh lebar */
+    
+}
+
+.image-container a svg {
+    width: 40px; /* Menyesuaikan lebar maksimum setiap SVG */
+    height: auto; /* Mengatur tinggi otomatis agar proporsi tetap */
+    transition: transform 0.3s ease;
+}
+
+.wa svg{
+    margin-top: 8px;
+}
+
+.h5{
+    margin-top: 15px;
+}
+
+.image-container a:hover svg {
+    transform: scale(1.1); /* Memperbesar SVG saat dihover */
+    cursor: pointer; /* Mengubah kursor menjadi tanda tangan "pointer" saat dihover */
+}
+
+
+@media (max-width:978px){
+    .text-container{
+        margin-left: -80px;
+    }
+    .icon-container svg {
+        top:75px;
+        left: -10px;
+    }
+    .sup img{
+        width:20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* nt mal */
+
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+    max-width: 1920px;
+  }
+  #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+    position: relative;
+    display: block;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #161616;
+    background: #D9D9D9;
+    transition: opacity 0.25s ease;
+    text-align: center;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.2rem;
+  }
+  #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+    opacity: .8;
+  }
+
+
+.container-fluid{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.p-0 {
+    padding: 0 !important;
+  }
+
+  .rod {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .rod > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+  
+  .col {
+    flex: 1 0 0%;
+  }
+  
+  .rod-cols-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  
+  .rod-cols-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  .rod-cols-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
+  .rod-cols-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  
+  .rod-cols-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  
+  .rod-cols-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  
+  .rod-cols-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .col-lg-4, .col-sm-6 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.project-category, .project-name {
+    font-size: 20px; /* You can adjust the font size as needed */
+}
+
+body{
+    overflow-x: hidden;
+}
